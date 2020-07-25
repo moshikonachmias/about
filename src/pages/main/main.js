@@ -71,7 +71,7 @@ function Main(props) {
                 },
                 {
                     text: 'TRENDING NOW',
-                    link: 'https://www.google.com'
+                    link: '/trending'
                 }],
         },
         {

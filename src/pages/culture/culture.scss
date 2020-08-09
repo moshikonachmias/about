@@ -37,14 +37,14 @@ html, body, #root {
 .culture-item__wide {
   margin: auto;
   width: fit-content;
-  background: linear-gradient(0deg, #96236D -51.14%, #4F187E 89.77%);
+  background: linear-gradient(90deg, #96236D -51.14%, #4F187E 89.77%);
 }
 
 .culture-item {
   margin: 15px;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(0deg, #96236D -51.14%, #4F187E 89.77%);
+  background: linear-gradient(90deg, #96236D -51.14%, #4F187E 89.77%);
   width: 40%;
 }
 

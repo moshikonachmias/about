@@ -8,6 +8,7 @@ import {
 import './App.css';
 import Main from "./pages/main/main";
 import Trending from "./pages/trending/trending";
+import Culture from "./pages/culture/culture";
 
 function App() {
     return (
@@ -19,9 +20,9 @@ function App() {
                     <Route path="/trending">
                         <Trending/>
                     </Route>
-                    {/*<Route path="/users">*/}
-                    {/*  <Users />*/}
-                    {/*</Route>*/}
+                    <Route path="/culture">
+                      <Culture />
+                    </Route>
                     <Route path="/">
                         <Main/>
                     </Route>

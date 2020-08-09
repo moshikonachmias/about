@@ -5,6 +5,7 @@ import eilon from '../../assets/trendings/eilon.png';
 import gong from '../../assets/trendings/gong.png';
 import activity from '../../assets/trendings/activity.png';
 import arrow from '../../assets/icons/arrow.svg';
+import arrow_back from '../../assets/icons/arrow_back.svg';
 import { Link } from "react-router-dom";
 
 Trending.propTypes = {};
@@ -45,7 +46,7 @@ function Trending(props) {
         <div id='trends'>
             <div>
                 <Link className='' to='/'>
-                    <img className='trends-section-img' src={arrow} alt='back'/>
+                    <img className='trends-section-img' src={arrow_back} alt='back'/>
                 </Link>
                 <div>
                     <span className='trends-title'>TRENDING NOW</span>

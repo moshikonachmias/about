@@ -63,11 +63,11 @@ function Main(props) {
             items: [
                 {
                     text: 'OUR PRODUCT',
-                    link: 'https://www.google.com'
+                    link: 'https://gongio.wistia.com/medias/tipvy2yml4'
                 },
                 {
                     text: 'OUR MINDSET',
-                    link: 'https://www.google.com'
+                    link: 'https://www.youtube.com/watch?v=THVsB7_Ws4o&feature=emb_title'
                 },
                 {
                     text: 'TRENDING NOW',
@@ -79,15 +79,15 @@ function Main(props) {
             items: [
                 {
                     text: 'REVIEWS',
-                    link: 'https://www.google.com'
+                    link: 'https://www.g2.com/products/gong/reviews#reviews'
                 },
                 {
                     text: 'GONGSTERS',
-                    link: 'https://www.google.com'
+                    link: 'https://www.glassdoor.com/Overview/Working-at-Gong-EI_IE1722176.11,15.htm'
                 },
                 {
                     text: 'CULTURE',
-                    link: 'https://www.google.com'
+                    link: '/culture'
                 }],
         }
     ]

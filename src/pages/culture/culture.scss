@@ -2,7 +2,7 @@ html, body, #root {
   //height: 100%;
 }
 
-#trends {
+#culture {
   background: url("../../assets/get_to_know_us.png") round;
   background-size: auto;
   font-family: 'Barlow Condensed', sans-serif;
@@ -10,7 +10,7 @@ html, body, #root {
   padding: 10px;
 }
 
-#trends-content {
+#culture-content {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -22,98 +22,89 @@ html, body, #root {
   //height: 100%;
 }
 
-.trends-hr {
+.culture-hr {
   width: 30px;
   margin: 10px 0;
   border: 1px solid #f7cd05;
 }
 
-.trends-title {
+.culture-title {
   font-size: 36px;
   color: white;
   text-align: center;
 }
 
-.trends-item {
+.culture-item__wide {
+  margin: auto;
+  width: fit-content;
+  background: linear-gradient(0deg, #96236D -51.14%, #4F187E 89.77%);
+}
+
+.culture-item {
   margin: 15px;
   display: flex;
   flex-direction: column;
-  background: rgba(129, 42, 193, 0.8);
+  background: linear-gradient(0deg, #96236D -51.14%, #4F187E 89.77%);
   width: 40%;
-  max-width: 370px;
-  border-bottom: 2px solid #F7CD05;
 }
 
-.trends-item-content {
+.culture-item-content {
   display: flex;
   flex-direction: column;
-  padding: 10px;
   justify-content: space-between;
   height: 100%;
 }
 
-.trends-text {
+.culture-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
   text-align: left;
   color: #FFFFFF;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
 }
 
-.trends-author, {
+.culture-author, {
   font-weight: 600;
   text-transform: uppercase;
   color: #CDAAE6;
 }
 
-.trends-section {
+.culture-section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.trends-section-title {
+.culture-section-title {
   color: #F7CD05;
 }
 
-.trends-img-container {
+.culture-img-container {
   text-align: center;
-  background: linear-gradient(0deg, #96236D -51.14%, #4F187E 89.77%);
   opacity: 0.95;
   max-height: 200px;
   min-height: 200px;
+  width: 100%;
 }
 
-.trends-img {
+.culture-img {
   max-height: inherit;
   min-height: inherit;
   width: inherit;
 }
 
-.trends-section-img {
+.culture-section-img {
   width: 20px;
 }
 
-//@media (max-width: 764px) {
-//  .trends-img-container {
-//    text-align: center;
-//    background: linear-gradient(0deg, #96236D -51.14%, #4F187E 89.77%);
-//    opacity: 0.95;
-//    max-height: 100px;
-//    min-height: 100px;
-//  }
-//
-//}
-
-@media (max-width: 1000px) {
-  .trends-img-container {
-    text-align: center;
-    background: linear-gradient(0deg, #96236D -51.14%, #4F187E 89.77%);
-    opacity: 0.95;
-  }
-}
-
 @media (max-width: 960px) {
-  .trends-item {
+  .culture-item {
     width: 80%;
     max-width: 370px;
   }
 }
-

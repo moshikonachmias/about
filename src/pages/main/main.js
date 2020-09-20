@@ -10,7 +10,7 @@ import instegramIcon from '../../assets/icons/instegramIcon.svg';
 import linkedinIcon from '../../assets/icons/linkedinIcon.svg';
 import money from '../../assets/icons/money.svg';
 import twitter from '../../assets/icons/twitter.svg';
-import cover from '../../assets/cover.svg';
+import cover from '../../assets/cover.png';
 
 Main.propTypes = {};
 
@@ -38,12 +38,12 @@ function Main(props) {
         {
             src: location,
             title: 'LOCATION',
-            subtitle: 'TLV | SF'
+            subtitle: 'TLV | SF | AT'
         },
         {
             src: money,
             title: 'RAISED',
-            subtitle: '$134M'
+            subtitle: '$334M'
         },
         {
             src: flag,
@@ -53,7 +53,7 @@ function Main(props) {
         {
             src: emplo,
             title: 'EMPLOYEES',
-            subtitle: '300+'
+            subtitle: '350+'
         },
     ]
 

@@ -3,10 +3,11 @@ html, body, #root {
 }
 
 #culture {
-  background: url("../../assets/get_to_know_us.png") round;
-  background-size: auto;
+  background-image: url("../../assets/get_to_know_us.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Barlow Condensed', sans-serif;
-  height: 100%;
   padding: 10px;
 }
 
@@ -36,7 +37,7 @@ html, body, #root {
 
 .culture-item__wide {
   margin: auto;
-  width: fit-content;
+  width: 75%;
   background: linear-gradient(90deg, #96236D -51.14%, #4F187E 89.77%);
 }
 
@@ -45,7 +46,7 @@ html, body, #root {
   display: flex;
   flex-direction: column;
   background: linear-gradient(90deg, #96236D -51.14%, #4F187E 89.77%);
-  width: 40%;
+  width: 35%;
 }
 
 .culture-item-content {
@@ -87,24 +88,14 @@ html, body, #root {
 .culture-img-container {
   text-align: center;
   opacity: 0.95;
-  max-height: 200px;
-  min-height: 200px;
   width: 100%;
+  overflow: hidden;
 }
 
 .culture-img {
-  max-height: inherit;
-  min-height: inherit;
-  width: inherit;
+  width: 100%;
 }
 
 .culture-section-img {
   width: 20px;
-}
-
-@media (max-width: 960px) {
-  .culture-item {
-    width: 80%;
-    max-width: 370px;
-  }
 }

@@ -1,13 +1,16 @@
 #main {
-  background: url("../../assets/get_to_know_us.png") round;
-  background-size: auto;
+  background-image: url("../../assets/get_to_know_us.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
-  height: 100%;
 }
 
 .section {
   display: flex;
   flex-direction: row;
+  place-content: center;
+  justify-content: space-evenly;
 }
 
 .cover-img {
